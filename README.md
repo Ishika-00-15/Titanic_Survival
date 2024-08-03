@@ -15,4 +15,4 @@ The dataset contains the following columns:
     Cabin: Cabin number.
     Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
 
-    
+There are 891 values under each coloum with missing values in columns 'Age', 'Cabin' and 'Embarked'. We have imputed the missing values in 'Age' column using the median age and the missing values of'Embarked' column withtthe most frequent value. 
