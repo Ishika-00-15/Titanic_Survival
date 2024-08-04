@@ -20,10 +20,10 @@ From the pie chart, we observe that only 38.4% and the bar chart confirms that m
 Running logistic regression with 'Survived' as the dependent variable and train data to test data split to be 8:2, we find the accuracy to be 81.01%. This implies that the model correctly predicted the survival status of passengers 81.01% of the time on the test set.
 Now, confusion matrix is a table used to evaluate the performance of a classification algorithm. It provides a detailed breakdown of the model's predictions, showing how many instances were correctly or incorrectly classified for each class. The matrix has four main components:
    
-90: True negatives (correctly predicted non-survivors)
-15: False positives (incorrectly predicted survivors)
-19: False negatives (incorrectly predicted non-survivors)
-55: True positives (correctly predicted survivors)
+	90: True negatives (correctly predicted non-survivors)
+	15: False positives (incorrectly predicted survivors)
+	19: False negatives (incorrectly predicted non-survivors)
+	55: True positives (correctly predicted survivors)
 
 The confusion matrix shows that the model correctly identifies most of the actual survivors and non-survivors, with relatively few misclassifications.
 
